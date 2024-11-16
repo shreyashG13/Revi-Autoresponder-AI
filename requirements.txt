@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+openai
+azure-storage-blob
+pandas
+python-dotenv
