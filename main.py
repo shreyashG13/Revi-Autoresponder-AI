@@ -1,10 +1,13 @@
+# main.py
+
 from fastapi import FastAPI, HTTPException
+import logging
 from chatgpt_handler import get_chatgpt_response
 from copilot_handler import get_copilot_response
 from llm_generic_handler import handle_generic_chatgpt_query, handle_generic_copilot_query
 from query_handler import handle_chatgpt_query, handle_copilot_query
 from ood_handler import handle_ood_query
-import logging
+from revi_handler import handle_revi_query  # Import the new handler
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -63,7 +66,7 @@ async def respond_copilot_generic(query: str):
         return {"response": response}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-    
+
 @app.post("/chat")
 async def chat_with_chatgpt(query: str):
     """
@@ -80,7 +83,6 @@ async def chat_with_chatgpt(query: str):
         return {"response": response}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-    
 
 @app.post("/copilot")
 def chat_with_copilot(query: str):
@@ -97,4 +99,15 @@ def chat_with_copilot(query: str):
         response = get_copilot_response(query)
         return {"response": response}
     except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+# New endpoint for Revi Customer Support Assistant
+@app.post("/respond/revi")
+async def respond_with_revi(customer_id: str, query: str):
+    logging.info(f"Revi endpoint accessed with query: {query}")
+    try:
+        response = await handle_revi_query(customer_id, query)
+        return {"response": response}
+    except Exception as e:
+        logging.error(f"Error in Revi endpoint: {e}")
         raise HTTPException(status_code=500, detail=str(e))

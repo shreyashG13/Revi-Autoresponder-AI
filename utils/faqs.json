@@ -1,0 +1,54 @@
+{
+  "faqs": [
+    {
+      "question": "What are your standard pricing options?",
+      "answer": "Our standard pricing options are:\n\n- **CHEERS (Unlimited):** $229/month\n- **SPEAKEASY (8 Classes/Month):** $199/month\n- **MINIBAR (4 Classes/Month):** $119/month\n- **10-class pack:** $310\n- **20-class pack:** $600\n- **Drop-In:** $35"
+    },
+    {
+      "question": "How can I reschedule my class?",
+      "answer": "Hi ${FirstName}, I can help you reschedule, no problem. Please take a look at our schedule and pick a Reformer class that you'd like to attend. You can schedule directly yourself using this link: **https://bodybarpilates.com/mariana-tek-studio-schedules/?_mt=%2Fschedule%2Fdaily%2F48543**. Let me know if you run into any issues!"
+    },
+    {
+      "question": "What is your support email?",
+      "answer": "Our support email is **downtownslc@bodybarpilates.com**."
+    },
+    {
+      "question": "How can I schedule an appointment?",
+      "answer": "You can schedule an appointment by visiting our scheduling link: **https://bodybarpilates.com/mariana-tek-studio-schedules/?_mt=%2Fschedule%2Fdaily%2F48543**"
+    },
+    {
+      "question": "What should I wear/bring to class?",
+      "answer": "For safety reasons, we require all clients to wear Non-Slip Grip Socks. Socks can be purchased at our studio. Don’t worry about bringing cash; we can simply charge your credit card through your online account. We recommend comfortable clothes that allow you to move easily. Most athletes also bring a small towel and water. We have small cubbies to store your personal belongings, and we ask that you take off all loose/large jewelry, refrain from heavy perfumes/colognes, and turn your cell phones OFF."
+    },
+    {
+      "question": "How do I sign up for a class?",
+      "answer": "All our Pilates classes are scheduled through our online system. Clients must set up their profile by creating a username and password and entering credit card information. Once that is set, you can make reservations, track your visits, and more. Our schedule opens up two weeks at a time, so make sure you sign up for all your classes, as they will quickly fill up!"
+    },
+    {
+      "question": "Is there an age requirement?",
+      "answer": "We welcome all clients ages 13 and up. Any client between the ages of 16-18 must have an account and waiver signed by a parent or guardian. Clients 13 to 15 years old are allowed to participate in our group classes; however, their parent or guardian must sign a waiver and attend the entire session with the client. They also may request a private or semi-private session as long as the parent/guardian is either present during the session or participating alongside the minor."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "To ensure that our members can attend classes efficiently, we have a 10-hour window for cancellations. If you are no longer able to attend a class, please cancel your spot before the 10-hour window. You may do this by canceling online or on the app, or by calling/texting the studio."
+    },
+    {
+      "question": "How do I schedule a private session?",
+      "answer": "BODYBAR offers private and semi-private sessions. To schedule a session, please contact your local BODYBAR studio. A valid credit card must be obtained to reserve your session. Please note that sessions must be canceled within 10 hours of the scheduled start time, or the client will be charged."
+    },
+    {
+      "question": "Can I freeze my membership?",
+      "answer": "If you need to suspend your membership for any reason, medical or otherwise, you may do so for up to 1 month at a time, for a maximum of 3 months per calendar year. A 7-day written notice is required for every freeze request. A $30 freeze fee may be applied to your account each month your membership is frozen. If cancellation is needed after the membership has been reactivated, a 30-day notice is required."
+    },
+    {
+      "question": "Who are BODYBAR Pilates?",
+      "answer": "BODYBAR Pilates’ purpose is to build a community of people who love, respect, encourage, and motivate one another to be strong, healthy, and happy human beings. We achieve this by empowering values-focused entrepreneurs to deliver our brand ethos globally via BODYBAR studio ownership."
+    },
+    {
+      "question": "What are your core values?",
+      "answer": "Our core values focus on building a community that loves, respects, encourages, and motivates each other to be strong, healthy, and happy. We empower entrepreneurs to deliver our brand ethos globally through BODYBAR studio ownership."
+    }
+  ],
+  "support_email": "downtownslc@bodybarpilates.com",
+  "scheduling_link": "https://bodybarpilates.com/mariana-tek-studio-schedules/?_mt=%2Fschedule%2Fdaily%2F48543"
+}
